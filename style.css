@@ -1,0 +1,49 @@
+html,body{
+    margin:0px;
+    height:100%;
+}
+#container{
+  width:70%;
+  height:100%;
+  margin:auto;
+  border:1px;
+  background-color: #D0CFC3;
+  position: absolute;
+  left:15%
+}
+.card{
+  -webkit-transition:all .5s;
+  width:90%;
+  height:8%;
+  line-height: 55px;
+  text-shadow: -3px 3px 5px #888888;
+  margin:1% auto;
+  border-radius: 10px;
+  background-color: #C5D9D4;
+  border: 1px solid #CCAA55;
+  text-align:center;
+  font-size: 25px;
+  font-family:Arial,'Times New Roman','Microsoft YaHei',SimHei;
+  color: #666666;
+}
+.card:hover{
+  background-color: #D9F9E9;
+  color: #444444;
+}
+.flipped{
+  background-color: #FFFFFF;
+  color: #000000;
+  transform:rotateX(360deg);
+  -ms-transform:rotateX(360deg); /* Internet Explorer */
+  -moz-transform:rotateX(360deg); /* Firefox */
+  -webkit-transform:rotateX(360deg); /* Safari 和 Chrome */
+  -o-transform:rotateX(360deg); /* Opera */
+  transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s; /* Firefox 4 */
+  -webkit-transition-duration: 0.5s; /* Safari 和 Chrome */
+  -o-transition-duration: 0.5s; /* Opera */
+}
+.flipped:hover{
+  background-color: #FFFFFF;
+  color: #000000;
+}

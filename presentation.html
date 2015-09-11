@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Presentation: About Speaking With Confidence</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="js/jQuery-1.11.3.js"></script>
+</head>
+<body>
+  <div id="container">
+    <div class="card turn">Turn</div>
+    <div class="card prepare">Prepare</div>
+    <div class="card practice">Practice</div>
+    <div class="card breathe">Breathe</div>
+    <div class="card rehearse">Rehearse</div>
+    <div class="card audience">Autience</div>
+    <div class="card simplify">Simplyfy</div>
+    <div class="card visualize">Visualize</div>
+    <div class="card connect">Connect</div>
+    <div class="card act">Act</div>
+  </div>
+
+	<script>
+		$(function(){
+			$("#container").children().each(function(index){
+				$(this).click(function(){
+        //  document.write("asdf");
+					$(this).toggleClass("flipped");
+				});
+			});
+		});
+	</script>
+  
+</body>
+</html>
