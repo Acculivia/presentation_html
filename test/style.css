@@ -1,0 +1,62 @@
+html,body{
+    margin:0px;
+    height:100%;
+}
+#container{
+  width:1080px;
+  height:700px;
+  margin:auto;
+  background-color: #E0EFE3;
+  position: absolute;
+  left:15%;
+}
+.card{
+  -webkit-transition:all .5s;
+  text-align:center;
+  -webkit-perspective:600;
+  width:970px;
+  height:50%;
+  margin:1% auto;
+  border-radius: 10px;
+  background-color: #D5D9D4;
+  border: 1px solid #998877;
+}
+.face{
+  -webkit-transition:all .5s;
+  width:100%;
+  height:100%;
+  position:absolute;
+  border: 1px solid #998877;
+  line-height: 55px;
+  color: #666666;
+  -webkit-backface-visibility:hidden;
+}
+.top{
+  width:100%;
+  height:100%;
+  z-index: 10;
+  background-color: #EEEEEE;
+}
+.bottom{
+  width:100%;
+  height:100%;
+  z-index: 7;
+  background-color: #000000;
+  -webkit-transform:rotate3d(1,0,0,-180deg);
+}
+.flipped .top{
+  -webkit-transform:rotate3d(1,0,0,180deg);
+  z-index:7;
+}
+.flipped .bottom{
+  -webkit-transform:rotate3d(1,0,0,0deg);
+  z-index: 10;
+}
+.flipped{
+  width:952px;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-radius: 25px;
+  border-color: #111111;
+  -webkit-transition-duration: 0.5s; /* Safari 和 Chrome */
+}
