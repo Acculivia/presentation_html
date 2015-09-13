@@ -1,9 +1,9 @@
 /*
-  transform:rotateX(0deg);
-  -ms-transform:rotateX(0deg); /* Internet Explorer
-  -moz-transform:rotateX(0deg); /* Firefox
-  -webkit-transform:rotateX(0deg); /* Safari 和 Chrome
-  -o-transform:rotateX(0deg); /* Opera
+  transform:;
+  -ms-transform:; /* Internet Explorer
+  -moz-transform:; /* Firefox
+  -webkit-transform:; /* Safari 和 Chrome
+  -o-transform:; /* Opera
 */
 
 html,body{
@@ -22,11 +22,12 @@ html,body{
               6px 0px 10px #AAAAAA;
 }
 .card{
-  width:400px;
+  width:500px;
   height:8%;
   margin:1% auto;
   -webkit-transition:all .3s;
   -webkit-perspective:600;
+  position:relative;
 }
 .face{
   width:100%;
@@ -48,6 +49,7 @@ html,body{
   z-index: 8;
 }
 .bottom{
+  position:relative;
   border: 2px solid #AA2222;
   background-color: #FFFFFF;
   color: #000000;
@@ -75,8 +77,42 @@ html,body{
 .face:hover{
   color: #442222;
   border-radius: 25px;
-  background-color: #F4FCFF;
+  background-color: #F0F9FF;
 }
 .flipped:hover{
   width:700px;
+}
+.extra{
+  overflow: hidden;
+  -webkit-transition:all .3s;
+  position:absolute;
+  top:0;
+  left:10%;
+  background-color: #D69F9F;
+  border-radius: 10px;
+  border: 2px solid #FFFFFF;
+  width:80%;
+  height:10px;
+  margin:0 auto;
+  z-index:100;
+}
+.extra:hover{
+  border: 3px solid #222222;
+  border-radius: 50px;
+  background-color: #CCEEDD;
+  top:3px;
+  width:120%;
+  left:-10%;
+  height:300px;
+  margin:0 auto;
+  z-index:100;
+}
+table{
+  margin:30px;
+  position: relative;
+  top:300px;
+  -webkit-transition: all .7s;
+}
+.extra:hover table{
+  top:-30px;
 }

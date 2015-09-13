@@ -2,18 +2,33 @@
 <html lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>test</title>
+  <title>Presentation: About Speaking With Confidence</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
   <script src="../js/jQuery-1.11.3.js"></script>
 </head>
 <body>
   <div id="container">
-    <div class="card">
-      <div class="top face">TOP</div>
-      <div class="bottom face">BOTTOM</div>
+    <div class="card" style="z-index:10">
+      <div class="face top">TOP</div>
+      <div class="face bottom">
+        <div class="extra">
+          <table><tr>
+            <th><img src="IMG1.jpg"></img></th>
+            <th><span>Standing up straight is perhaps the most important means of communicating confidence.</span></th>
+          </tr></table>
+        </div>
+        BOTTOM
+      </div>
     </div>
-  </div>
-
+    <div class="card" style="z-index:9">
+      <div class="face top">TOP</div>
+      <div class="face bottom">
+        <div class="extra">
+          TOP
+        </div>
+        BOTTOM
+      </div>
+    </div>
 	<script>
 		$(function(){
 			$("#container").children().each(function(index){
