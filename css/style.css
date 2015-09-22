@@ -18,15 +18,32 @@ html,body{
   background-color: #D4E0E7;
   position: absolute;
   left:15%;
-  box-shadow: -6px 0px 10px #AAAAAA,
-              6px 0px 10px #AAAAAA;
+  box-shadow: -6px 0px 10px #999999,
+              6px 0px 10px #999999;
 }
+
+.info{
+  float:left;
+  text-align:center;
+  font-size: 18px;
+  font-family:Arial,'Times New Roman','Microsoft YaHei',SimHei;
+  width:180px;
+  height:280px;
+  padding:10px;
+  background-color: #DDEEDD;
+  border-radius: 20px;
+  border:3px solid #111111;
+  box-shadow: 6px 6px 6px #666666;
+}
+
 .card{
   width:500px;
   height:8%;
   margin:1% auto;
   -webkit-transition:all .3s;
+  -ms-transition:all .5s;
   -webkit-perspective:600;
+  -ms-perspective:600;
   position:relative;
 }
 .face{
@@ -40,7 +57,9 @@ html,body{
   font-size: 25px;
   font-family:Arial,'Times New Roman','Microsoft YaHei',SimHei;
   -webkit-transition:all .5s;
+  -ms--transition:all .5s;
   -webkit-backface-visibility:hidden;
+  -ms-backface-visibility:hidden;
 }
 .top{
   border: 2px solid #998877;
@@ -55,6 +74,7 @@ html,body{
   color: #000000;
   z-index: 7;
   -webkit-transform:rotateX(-180deg);
+  -ms-transform:rotateX(-180deg);
 }
 .flipped .face{
   border-radius: 50px;
@@ -62,14 +82,17 @@ html,body{
 .flipped .top{
   z-index:7;
   -webkit-transform:rotateX(180deg);
+  -ms-transform:rotateX(180deg);
 }
 .flipped .bottom{
   -webkit-transform:rotateX(0deg);
+  -ms-transform:rotateX(0deg);
   z-index: 8;
 }
 .flipped{
   width:900px;
   -webkit-transition:all .5s;
+  -ms-transition:all .5s;
 }
 .card:hover{
   width:1028px;
@@ -85,22 +108,23 @@ html,body{
 .extra{
   overflow: hidden;
   -webkit-transition:all .3s;
+  -ms-transition:all .3s;
   position:absolute;
-  top:0;
-  left:10%;
+  top:30%;
+  left:90%;
   background-color: #D69F9F;
-  border-radius: 10px;
+  border-radius: 20px;
   border: 2px solid #FFFFFF;
-  width:80%;
-  height:10px;
+  width:20px;
+  height:20px;
   margin:0 auto;
   z-index:100;
 }
 .extra:hover{
   border: 3px solid #222222;
-  border-radius: 50px;
+  border-radius: 70px;
   background-color: #CCEEDD;
-  top:3px;
+  top:5px;
   width:120%;
   left:-10%;
   height:300px;
@@ -112,6 +136,7 @@ table{
   position: relative;
   top:300px;
   -webkit-transition: all .7s;
+  -ms-transition: all .7s;
 }
 .extra:hover table{
   top:-30px;
