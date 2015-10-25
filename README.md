@@ -16,6 +16,10 @@ After the successful presentation, my English gave a comment of "almost perfect"
 I've also asked one of my friend to give comment to my little project, and his review is, well, the combination of colors is bad. All right, maybe I've made my colors too dark yet not pure dark, I thought.
 
 I always feel excited when I come and find this well-saved on GH. And thanks for reading this readme! Enjoy and feel free to leave comments!
+
+All right... after I've written these I think that maybe I need to learn how to use markdown. Or maybe Github doesn't show it well but how knows. Orz.
+
+So what I've view on the main page is these lines won't automatically start a newline...orz
 ----------------
 英语课装逼用html，取代PPT。
 内容是如何演讲得自信，然而这一切并没有什么卵用。
@@ -30,3 +34,6 @@ I always feel excited when I come and find this well-saved on GH. And thanks for
 其实在上一次更新以后就已经快到presentation的时候了，然后我现在才回来更新。我这一次其实就是更新了上面的英文内容而已，其实英文内容和中文内容之间还是有些些差别的对吧~
 当时候的presentation被老师评价为“几近完美”，然后实际上老师并没有花多少注意在我的HTML上面，而是吐槽我和其实主要是我的同学他英语不够流利有些结巴。
 那么事情已经过去很久了。我想我也没有什么说的了。感谢欣赏我的这个处女作品&请多多指教！~
+
+然后……orz
+怎么md的文件会显示成为一行就是一行而不是自动换行的啊…………
